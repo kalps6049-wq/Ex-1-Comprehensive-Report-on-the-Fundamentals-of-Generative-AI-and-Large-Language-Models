@@ -302,17 +302,17 @@ This makes the model:
 
 LLM Architecture Flow Diagram:
 
-Text Input
-     ↓
-Tokenization
-     ↓
-Embedding
-     ↓
-Transformer Layers
-     ↓
-Probability Distribution
-     ↓
-Generated Text
+          Text Input
+              ↓
+          Tokenization
+              ↓
+          Embedding
+              ↓
+          Transformer Layers
+              ↓
+          Probability Distribution
+              ↓
+          Generated Text
 
 7. Timeline Chart: EVOLUTION OF AI
 
