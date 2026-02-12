@@ -4,296 +4,290 @@ Experiment: Develop a comprehensive report for the following exercises:
 
 1. INTRODUCTON:
 
-Artificial Intelligence (AI) has evolved from rule-based systems to highly intelligent generative systems capable of creating text, images, code, music, and even videos. Generative AI and Large Language Models (LLMs) represent one of the most transformative advancements in modern computing.
+   Artificial Intelligence (AI) has evolved from rule-based systems to highly intelligent generative systems capable of creating text, images, code, music, and even videos. Generative AI and Large Language          Models (LLMs) represent one of the most transformative advancements in modern computing.
 
-This report covers:
+   This report covers:
 
-Foundational concepts of Generative AI
-Generative models and their types
-2024 AI tools
-What LLMs are and how they are built
-Timeline chart of AI evolution
+      * Foundational concepts of Generative AI
+      * Generative models and their types
+      * 2024 AI tools
+      * What LLMs are and how they are built
+      * Timeline chart of AI evolution
 
 2. FOUNDATIONAL CONCEPTS OF GENERATIVE AI 
 
-2.1 What is Generative AI?
+    2.1 What is Generative AI?
 
-Generative AI refers to a class of AI systems that can create new content such as:
+       Generative AI refers to a class of AI systems that can create new content such as:
 
-* Text
-* Images
-* Audio
-* Video
-* Code
-* 3D models
+                   * Text
+                   * Images
+                   * Audio
+                   * Video
+                   * Code
+                   * 3D models
 
-2.2 Core Concepts Behind Generative AI
+   2.2 Core Concepts Behind Generative AI
 
-(a). Data Learning
+       (a). Data Learning
 
-Generative AI learns patterns from large datasets.
+              Generative AI learns patterns from large datasets.
 
-Example:
+              Example:
 
-* Text models learn grammar, facts, and structure from billions of words.
+                          * Text models learn grammar, facts, and structure from billions of words.
 
-* Image models learn shapes, textures, and styles from millions of images.
+                          * Image models learn shapes, textures, and styles from millions of images.
 
-(b). Probability Modeling
+        (b). Probability Modeling
 
-It predicts the probability of the next element.
+                  It predicts the probability of the next element.
 
-Example in text:
+                   Example in text:
 
-> “AI is transforming the __”
-The model predicts the most probable next word (e.g., "world", "industry", etc.)
+                                   > “AI is transforming the __”
+                                   The model predicts the most probable next word (e.g., "world", "industry", etc.)
 
-(c). Neural Networks
+       (c). Neural Networks
 
-Most generative systems use deep neural networks with many layers to learn complex patterns.
+                      Most generative systems use deep neural networks with many layers to learn complex patterns.
 
-(d). Latent Space Representation
+       (d). Latent Space Representation
 
-Generative models compress data into a lower-dimensional mathematical representation called latent space.
+                       Generative models compress data into a lower-dimensional mathematical representation called latent space.
 
-Input Data → Encoder → Latent Space → Decoder → Generated Output
+                       Input Data → Encoder → Latent Space → Decoder → Generated Output
 
 
 3. GENERATIVE MODELS AND THEIR TYPES
 
-3.1 What is a Generative Model?
+      3.1 What is a Generative Model?
 
-A generative model learns the joint probability distribution of data and can generate new samples from it.
+                     A generative model learns the joint probability distribution of data and can generate new samples from it.
 
-Example:
-> “What does real data look like?”
+                     Example:
+                             > “What does real data look like?”
 
-3.2 Types of Generative Models
+      3.2 Types of Generative Models:
 
-(a). Autoregressive Models
+                   (a). Autoregressive Models:
 
-Generate data one step at a time.
+                                Generate data one step at a time.
 
-Example: GPT models
+                                Example: GPT models
 
+                                      Flow:
 
-Flow:
+                                       Word1 → Word2 → Word3 → Word4 → ...
 
-Word1 → Word2 → Word3 → Word4 → ...
+                         Advantages:
 
-Advantages:
+                                   High-quality text generation
+                         Disadvantages:
 
-High-quality text generation
-Disadvantages:
+                                  Slow (sequential generation)
 
-Slow (sequential generation)
+                     (b). Variational Autoencoders (VAEs)
 
-(b). Variational Autoencoders (VAEs)
+                              Structure:
 
-Structure:
+                                        Input → Encoder → Latent Distribution → Decoder → Output
+                                        Used in:
 
-Input → Encoder → Latent Distribution → Decoder → Output
+                                                  Image generation
 
-Used in:
-
-Image generation
-
-Data compression
+                                                  Data compression
 
 
-Advantages:
+                              Advantages:
 
-Smooth latent space Disadvantages:
+                                         Smooth latent space Disadvantages:
 
-Sometimes blurry outputs
+                                         Sometimes blurry outputs
 
-(c). Generative Adversarial Networks (GANs)
+                            (c). Generative Adversarial Networks (GANs)
 
-Two networks compete:
+                                            Two networks compete:
 
-Generator → Creates Fake Data
-Discriminator → Detects Real vs Fake
+                                                             Generator → Creates Fake Data
+                                                              Discriminator → Detects Real vs Fake
 
-Training Process:
+                                            Training Process:
+                                                              Generator → Fake Image
+                                                              Discriminator → Real or Fake?
+                                                              Feedback → Improve Generator 
 
-Generator → Fake Image
-Discriminator → Real or Fake?
-Feedback → Improve Generator
+                                            Used in:
+                                                   * Deepfakes
+                                                   * Photorealistic images
 
-Used in:
+                            (d). Diffusion Models
 
-Deepfakes
+                                         Used in:
+                                                 * DALL·E
+                                                 * Stable Diffusion
+                                                 * Midjourney
 
-Photorealistic images
+                                         Process:
 
-(d). Diffusion Models
+                                                   Image → Add Noise → Train Model to Remove Noise → Generate Clean Image
 
-Used in:
+                                         Advantages:
 
-* DALL·E
-* Stable Diffusion
-* Midjourney
-
-Process:
-
-Image → Add Noise → Train Model to Remove Noise → Generate Clean Image
-
-Advantages:
-
-* High-quality image generation
-* Stable training
+                                                   * High-quality image generation
+                                                   * Stable training
 
 
-(e). Transformer-Based Models
+                             (e). Transformer-Based Models
 
-Foundation of modern LLMs.
+                                          Foundation of modern LLMs.
 
-Key concept: Self-Attention Mechanism
+                                                        Key concept: Self-Attention Mechanism
 
-Allows the model to understand relationships between all words in a sentence simultaneously.
+                                                        Allows the model to understand relationships between all words in a sentence simultaneously.
 
 4. 2024 AI TOOLS
 
-Here are major AI tools widely used in 2024:
+                  Here are major AI tools widely used in 2024:
 
-* Text & LLM Tools
-* ChatGPT (OpenAI)
-* Claude (Anthropic)
-* Gemini (Google)
-* Microsoft Copilot
-* Perplexity AI
+                                       * Text & LLM Tools
+                                       * ChatGPT (OpenAI)
+                                       * Claude (Anthropic)
+                                       * Gemini (Google)
+                                       * Microsoft Copilot
+                                       * Perplexity AI
 
-(a). Image Generation Tools:
+                  (a). Image Generation Tools:
 
-* Midjourney
-* DALL·E
-* Stable Diffusion
-* Adobe Firefly
-* Leonardo AI
+                                            * Midjourney
+                                            * DALL·E
+                                            * Stable Diffusion
+                                            * Adobe Firefly
+                                            * Leonardo AI
 
-(b). Video Generation Tools:
+                 (b). Video Generation Tools:
 
-* Runway ML
-* Pika Labs
-* Sora (OpenAI – early release stage)
+                                           * Runway ML
+                                           * Pika Labs
+                                           * Sora (OpenAI – early release stage)
 
-(c). Code Generation:
+                 (c). Code Generation:
 
-* GitHub Copilot
-* Codeium
-* Amazon CodeWhisperer
+                                          * GitHub Copilot
+                                          * Codeium
+                                          * Amazon CodeWhisperer
 
-(d). Audio & Music AI:
+                 (d). Audio & Music AI:
 
-* ElevenLabs
-* Suno AI
-* AIVA
-
-
+                                          * ElevenLabs
+                                          * Suno AI
+                                          * AIVA
 
 
 
-(e). DESIGN & Productivity AI:
 
-* Notion AI
-* GrammarlyGO
-* Jasper AI
-* Canva AI
+
+                (e). DESIGN & Productivity AI:
+
+                                         * Notion AI
+                                         * GrammarlyGO
+                                         * Jasper AI
+                                         * Canva AI
 
 
 5. What is an LLM?
 
-5.1 Definition
+      5.1 Definition
 
-LLM (Large Language Model) is a deep learning model trained on massive text datasets to understand and generate human-like language.
+                 LLM (Large Language Model) is a deep learning model trained on massive text datasets to understand and generate human-like language.
 
-Examples:
+                 Examples:
 
-* GPT-4
-* Gemini
-* Claude
-* LLaMA
+                          * GPT-4
+                          * Gemini
+                          * Claude
+                          * LLaMA
 
-5.2 Why “Large”?
+      5.2 Why “Large”?
 
-Because:
+          Because:
 
-* Billions or trillions of parameters
-* Trained on terabytes of text data
-* Requires massive computing power (GPUs/TPUs)
+                  * Billions or trillions of parameters
+                  * Trained on terabytes of text data
+                  * Requires massive computing power (GPUs/TPUs)
 
 
 6. HOW AN LLM IS BUILT
 
-Step 1: Data Collection
+     Step 1: Data Collection
 
-Sources:
+     Sources:
 
-* Books
-* Websites
-* Research papers
-* Code repositories
+         * Books
+         * Websites
+         * Research papers
+         * Code repositories
 
-Step 2: Data Cleaning
+     Step 2: Data Cleaning
 
-* Remove duplicates
-* Remove harmful content
-* Filter low-quality data
+         * Remove duplicates
+         * Remove harmful content
+         * Filter low-quality data
 
-Step 3: Tokenization
+     Step 3: Tokenization
 
-Text is converted into tokens:
+         Text is converted into tokens:
 
-“Artificial Intelligence”
-→ ["Artificial", "Intelligence"]
-→ Token IDs
+             “Artificial Intelligence”
+             → ["Artificial", "Intelligence"]
+             → Token IDs
 
-Step 4: Model Architecture (Transformer)
+      Step 4: Model Architecture (Transformer)
 
-Core Components:
+          Core Components:
+  
+           * Embedding Layer
 
-* Embedding Layer
+           * Self-Attention Layers
 
-* Self-Attention Layers
+           * Feedforward Networks
 
-* Feedforward Networks
+            * Layer Normalization
 
-* Layer Normalization
-
-* Output Softmax
-
-
-Self-Attention Example:
-
-Word A attends to Word B
-Word B attends to Word C
-All words attend to each other
-
-Step 5: Pre-training
-
-Objective: Predict next word
-
-Example:
-
-Input: AI is the future of
-Target: technology
-
-Loss Function: Cross-Entropy Loss
-
-Step 6: Fine-Tuning
-
-Supervised Fine-Tuning (SFT)
-
-Reinforcement Learning from Human Feedback (RLHF)
+            * Output Softmax
 
 
-This makes the model:
+      Self-Attention Example:
 
-* Safer
+        Word A attends to Word B
+        Word B attends to Word C
+        All words attend to each other
 
-* More aligned
+       Step 5: Pre-training
 
-* More helpful
+                Objective: Predict next word
+
+                Example:
+
+                 Input: AI is the future of
+                 Target: technology
+
+                 Loss Function: Cross-Entropy Loss
+
+         Step 6: Fine-Tuning
+
+              Supervised Fine-Tuning (SFT)
+
+              Reinforcement Learning from Human Feedback (RLHF)
+
+
+              This makes the model:
+
+                     * Safer
+
+                      * More aligned
+
+                      * More helpful
 
 
 
