@@ -302,18 +302,17 @@ This makes the model:
 
 LLM Architecture Flow Diagram:
 
-Input Text
+Text Input
      ↓
 Tokenization
      ↓
-Embedding Layer
+Embedding
      ↓
-Transformer Layers (Self-Attention)
+Transformer Layers
      ↓
-Output Probability Distribution
+Probability Distribution
      ↓
 Generated Text
-
 
 7. Timeline Chart: EVOLUTION OF AI
 
@@ -336,7 +335,7 @@ Here is the historical development of AI:
 2024 – Advanced multimodal AI & video generation systems
 
 
-Visual Timeline Chart Representation
+Visual Timeline Chart Representation:
 
 Symbolic AI (1950–1980)
         ↓
