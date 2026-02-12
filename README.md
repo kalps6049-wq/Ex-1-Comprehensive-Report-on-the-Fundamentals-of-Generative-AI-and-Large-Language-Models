@@ -59,7 +59,6 @@ Generative models compress data into a lower-dimensional mathematical representa
 Input Data → Encoder → Latent Space → Decoder → Generated Output
 
 
-
 3. GENERATIVE MODELS AND THEIR TYPES
 
 3.1 What is a Generative Model?
