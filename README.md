@@ -318,36 +318,36 @@ LLM Architecture Flow Diagram:
 
 Here is the historical development of AI:
 
-1950 – Alan Turing proposes Turing Test
-1956 – Dartmouth Conference (Birth of AI)
-1960s – Rule-Based Systems
-1980s – Expert Systems
-1990s – Machine Learning gains popularity
-1997 – IBM Deep Blue defeats Kasparov
-2006 – Deep Learning revival (Hinton)
-2012 – AlexNet wins ImageNet (Deep Learning breakthrough)
-2014 – GANs introduced
-2017 – Transformer architecture introduced
-2018 – BERT released
-2020 – GPT-3 (175B parameters)
-2022 – ChatGPT revolution
-2023 – GPT-4, multimodal AI
-2024 – Advanced multimodal AI & video generation systems
+    1950 – Alan Turing proposes Turing Test
+    1956 – Dartmouth Conference (Birth of AI)
+    1960s – Rule-Based Systems
+    1980s – Expert Systems
+    1990s – Machine Learning gains popularity
+    1997 – IBM Deep Blue defeats Kasparov
+    2006 – Deep Learning revival (Hinton)
+    2012 – AlexNet wins ImageNet (Deep Learning breakthrough)
+    2014 – GANs introduced
+    2017 – Transformer architecture introduced
+    2018 – BERT released
+    2020 – GPT-3 (175B parameters)
+    2022 – ChatGPT revolution
+    2023 – GPT-4, multimodal AI
+    2024 – Advanced multimodal AI & video generation systems
 
 
 Visual Timeline Chart Representation:
 
-Symbolic AI (1950–1980)
-        ↓
-Expert Systems (1980–1995)
-        ↓
-Machine Learning Era (1995–2010)
-        ↓
-Deep Learning Era (2010–2017)
-        ↓
-Transformer & LLM Era (2017–Present)
-        ↓
-Multimodal Generative AI (2022–2024)
+         Symbolic AI (1950–1980)
+                 ↓
+         Expert Systems (1980–1995)
+                 ↓
+         Machine Learning Era (1995–2010)
+                 ↓
+         Deep Learning Era (2010–2017)
+                 ↓
+         Transformer & LLM Era (2017–Present)
+                 ↓
+         Multimodal Generative AI (2022–2024)
 
 
 8. CONCLUSION:
