@@ -380,6 +380,7 @@ Generative AI is now transforming:
 (e). Scientific research
 
 9.REFERENCE:
+
     Wikipedia. (n.d.). Generative pre-trained transformer. Retrieved from [URL]
     Wikipedia. (2024). OpenAI o1. Retrieved from [URL]
     Analytics Vidhya. (2024). Top Generative AI Developments. Retrieved from [URL]
